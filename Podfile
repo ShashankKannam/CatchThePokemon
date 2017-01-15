@@ -7,4 +7,5 @@ target 'CatchThePokemon' do
 
   # Pods for CatchThePokemon
   pod 'Firebase/Core'
+  pod 'Firebase/Database'
 end
