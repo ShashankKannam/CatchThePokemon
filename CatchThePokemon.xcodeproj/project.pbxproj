@@ -92,6 +92,7 @@
 		9865C1371E2C094B0018A451 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				98668AA51E2B38360032278C /* ViewController.swift */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -100,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				98668AA21E2B38360032278C /* CatchThePokemon */,
+				98869AC11E2B3D0B0041D9AA /* GeoFire */,
 				98668AA11E2B38360032278C /* Products */,
 				756DDAAD98016545D05AB540 /* Pods */,
 				FD4E8B18ECCA600B8D114C6E /* Frameworks */,
@@ -120,14 +122,12 @@
 				9865C1371E2C094B0018A451 /* controller */,
 				9865C1361E2C09440018A451 /* View */,
 				9865C1351E2C09390018A451 /* Model */,
-				98869AC11E2B3D0B0041D9AA /* GeoFire */,
-				98668AB51E2B38820032278C /* GoogleService-Info.plist */,
 				98668AA31E2B38360032278C /* AppDelegate.swift */,
-				98668AA51E2B38360032278C /* ViewController.swift */,
 				98668AA71E2B38360032278C /* Main.storyboard */,
 				98668AAA1E2B38360032278C /* Assets.xcassets */,
 				98668AAC1E2B38360032278C /* LaunchScreen.storyboard */,
 				98668AAF1E2B38360032278C /* Info.plist */,
+				98668AB51E2B38820032278C /* GoogleService-Info.plist */,
 				98258EE81E2B3E140072036B /* CatchThePokemon-Bridging-Header.h */,
 			);
 			path = CatchThePokemon;
@@ -140,8 +140,7 @@
 				98869AC71E2B3D0B0041D9AA /* GeoFire-Prefix.pch */,
 				98869AC81E2B3D0B0041D9AA /* Implementation */,
 			);
-			name = GeoFire;
-			path = ../GeoFire;
+			path = GeoFire;
 			sourceTree = "<group>";
 		};
 		98869AC21E2B3D0B0041D9AA /* API */ = {
