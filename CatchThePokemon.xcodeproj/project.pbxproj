@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		187DC3724F92042CBB5FFEDA /* Pods_CatchThePokemon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F90D00EE49C3416A6E3057 /* Pods_CatchThePokemon.framework */; };
+		9865C1391E2C09690018A451 /* pokemonAnnotatiions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9865C1381E2C09690018A451 /* pokemonAnnotatiions.swift */; };
 		98668AA41E2B38360032278C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98668AA31E2B38360032278C /* AppDelegate.swift */; };
 		98668AA61E2B38360032278C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98668AA51E2B38360032278C /* ViewController.swift */; };
 		98668AA91E2B38360032278C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98668AA71E2B38360032278C /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 		5C10B60433ED564F1375F2DB /* Pods-CatchThePokemon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatchThePokemon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatchThePokemon/Pods-CatchThePokemon.debug.xcconfig"; sourceTree = "<group>"; };
 		94F90D00EE49C3416A6E3057 /* Pods_CatchThePokemon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatchThePokemon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98258EE81E2B3E140072036B /* CatchThePokemon-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CatchThePokemon-Bridging-Header.h"; sourceTree = "<group>"; };
+		9865C1381E2C09690018A451 /* pokemonAnnotatiions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pokemonAnnotatiions.swift; sourceTree = "<group>"; };
 		98668AA01E2B38360032278C /* CatchThePokemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchThePokemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98668AA31E2B38360032278C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98668AA51E2B38360032278C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +74,28 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9865C1351E2C09390018A451 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9865C1381E2C09690018A451 /* pokemonAnnotatiions.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9865C1361E2C09440018A451 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9865C1371E2C094B0018A451 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
 		98668A971E2B38350032278C = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +117,9 @@
 		98668AA21E2B38360032278C /* CatchThePokemon */ = {
 			isa = PBXGroup;
 			children = (
+				9865C1371E2C094B0018A451 /* controller */,
+				9865C1361E2C09440018A451 /* View */,
+				9865C1351E2C09390018A451 /* Model */,
 				98869AC11E2B3D0B0041D9AA /* GeoFire */,
 				98668AB51E2B38820032278C /* GoogleService-Info.plist */,
 				98668AA31E2B38360032278C /* AppDelegate.swift */,
@@ -281,6 +308,7 @@
 				98668AA61E2B38360032278C /* ViewController.swift in Sources */,
 				98869AD51E2B3D0B0041D9AA /* GFGeoHash.m in Sources */,
 				98668AA41E2B38360032278C /* AppDelegate.swift in Sources */,
+				9865C1391E2C09690018A451 /* pokemonAnnotatiions.swift in Sources */,
 				98869AD31E2B3D0B0041D9AA /* GeoFire.m in Sources */,
 				98869AD61E2B3D0B0041D9AA /* GFGeoHashQuery.m in Sources */,
 				98869AD71E2B3D0B0041D9AA /* GFQuery.m in Sources */,
